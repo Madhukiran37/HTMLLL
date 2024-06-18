@@ -1,0 +1,12 @@
+table{
+    width: 50%;
+    background-color:palegreen;
+    border-radius: 10px;
+    margin: 50px;
+    
+    
+}
+
+tr,th{
+    border-radius: 10px;
+}

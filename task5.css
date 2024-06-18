@@ -1,0 +1,26 @@
+.one{
+   
+    font-size: large;
+    font:bold;
+    text-align: center;
+    width: 30%;
+   
+}
+.two{
+    font-size: large;
+}
+.three{
+    width:98%;
+}
+
+div{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.new{
+    text-align: right;
+}
+
+.one{
+    font:bolder;
+}

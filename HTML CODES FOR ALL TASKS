@@ -1,0 +1,338 @@
+1) TASK-1:
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  width: 90%;
+  background-color: #96D4D4;
+  border: 50px;
+  margin-top: 200px;
+  margin-left: 50px;
+  height: 200px;
+  border-collapse: collapse;
+  
+}
+
+table,tr,td{
+    border: 1px solid white;
+}
+
+.one{
+    text-align: center;
+    font-size: large;
+}
+
+tr{
+    font-size: large;
+}
+h1{
+    text-align: left;
+    
+}
+div{
+    padding: 5px;
+    background-color: greenyellow;
+    color: black;
+    width: 30%;
+    
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+<div>
+    <h1><u>Task-1</u></h1>
+</div>
+
+<table border="1">
+    <tr class="one">
+        <td><b>Firstname</b> </td> <td ><b>Lastname</b></td> <td> <b>Age</b> </td>
+    </tr>
+    <tr>
+        <td>Jill</td> <td>Smith</td> <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td> <td>Jackson</td> <td>94</td>
+    </tr>
+    <tr>
+        <td>John</td> <td>Doe</td> <td>80</td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+
+TASK2:
+
+<h1>Task-2</h1>
+
+
+
+    <div>
+        <p class="one">Lists can be nested (list inside list:)</p>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea
+                <ul>
+                    <li>Black tea</li>
+                    <li>Green tea</li>
+                </ul>
+            </li>
+            <li>Milk</li>
+        </ul>
+    </div>
+
+
+
+</table>
+
+<style>
+    
+    div{
+        padding: 5px;
+        margin-left: 30%;
+        margin-top: 10%;
+        border:2px solid black;
+        width: 300px;
+    
+        
+        
+    }
+
+    h1{
+        background-color: green;
+        width: 30%;
+    }
+
+    
+
+  
+</style>
+
+3)TASK-3
+
+<p>Click any of the following links</p> 
+<p><a target="_blank" href="#">Opens in New |</a> <a target="_self" href="#">Opens in self |</a> <a target="_parent" href="#">Opens in parent |</a> <a target="_top" href="#">Opens in body |</a> <a inputmode="email" href="#">Send email</a></p>
+<style>
+    a:link{
+        color: blue;
+    }
+</style>
+
+4)TASK-4
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 4.html</title>
+</head>
+<style>
+    table{
+        margin-left: 35%;
+        margin-top: 11%;
+    }
+</style>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Full Name: <br><br></td>    <td><input type="text"> <br> <br></td> 
+            </tr>
+            
+
+            <tr>
+                <td>Name:<br><br></td> <td><input type="text"><br><br></td> 
+            </tr>
+
+            
+
+            <tr>
+                <td>Password:<br><br></td> <td><input type="password"><br><br></td>
+            </tr>
+
+            <tr>
+                <td>Re-Password:<br><br></td> <td><input type="password"><br><br></td> 
+            </tr>
+
+            <tr>
+                <td>Address:<br><br></td> <td><input type="text"><br><br></td>
+            </tr>
+
+            <tr>
+                <td>Age:<br><br></td> <td><input type="number"><br><br></td>
+            </tr>
+
+            <tr>
+                <td>Gender:<br><br></td>
+                <td>
+                    <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+                    <br><br>
+                </td>
+            </tr>
+
+            <tr>
+               
+                <td><input type="submit"></td>
+                
+            </tr>
+            
+            
+        </table>
+    </form>
+  
+    
+</body>
+</html>
+
+5)Task 5
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task5.html</title>
+    <link rel="Stylesheet" href="C:\Users\mkirr\OneDrive\Desktop\HTML\task5.css">
+</head>
+<body>
+
+    <div>
+    <form>
+        
+        <table border="1" style="width: 60%; border-collapse: collapse; border-width: 3px;">
+            <caption><h1 style="color: blue;">Registration form</h1></caption>
+            <tr>
+                <td class="one">First Name:</td>    <td><input type="text" class="three"></td> 
+            </tr>
+            
+
+            <tr>
+                <td class="one">Last Name:</td> <td><input type="text" class="three"></td> 
+            </tr>
+
+            
+
+            <tr>
+                <td class="one">Email:</td> <td><input type="password" class="three"></td>
+            </tr>
+
+            <tr>
+                <td class="one">Password:</td> <td><input type="password" class="three"></td> 
+            </tr>
+
+            <tr>
+                <td class="one">Re-Enter Password:</td> <td><input type="text" class="three"></td>
+            </tr>
+
+           
+            <tr>
+                <td class="one">Gender:</td>
+
+        
+                <td>
+                    <input type="radio" name="gender" value="male"> Male 
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+                
+            </tr>
+            <tr>
+                <td class="one">Age:</td> <td><input type="number" class="three"></td>
+            </tr>
+
+            <tr>
+                <td class="one">Phone Number:</td> <td><input type="number" class="three"></td>
+            </tr>
+
+            <tr>
+                <td class="one">Address:</td> <td><input type="text" class="three"></td>
+            </tr>
+
+            <tr>
+                <td class="one">State:</td> <td><input type="number" class="three"> </td>
+            </tr>
+
+            <tr>
+                <td class="one">Country:</td>
+                <td>
+                    <select>
+                        <option></option>
+                        <option>India</option>
+                        <option>China</option>
+                        <option>Japan</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="one">Languages Known:</td> 
+                <td>
+                    <input type="checkbox">English
+                    <input type="checkbox">Kannada
+                    <input type="checkbox">Hindi
+                    <input type="checkbox">Telugu
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td class="two" colspan="2"><input type="checkbox">Hereby i declare all the given details are true</td>
+            </tr>
+
+
+            <tr>
+                <td class="new" colspan="2">Log in to <a href="https://ethnus.com/">Ethnus</a> website</td>
+            </tr>
+            
+        
+            
+        </table>
+    </form>
+    </div>
+  
+    
+</body>
+</html>
+
+TASK-5 CSS:
+
+.one{
+   
+    font-size: large;
+    font:bold;
+    text-align: center;
+    width: 30%;
+   
+}
+.two{
+    font-size: large;
+}
+.three{
+    width:98%;
+}
+
+div{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.new{
+    text-align: right;
+}
+
+.one{
+    font:bolder;
+}
+
+
